@@ -69,39 +69,9 @@
     lazyLoad: 2,
     wrapAround: true,
     pageDots: false,
-    responsive: [
-    {
-      breakpoint: 749,
-      settings: {
-        cellAlign: "left",
-        freeScroll: true,
-        prevNextButtons: false,
-        pageDots: true
-      }
-    }]
+    cellAlign: "left",
   });
-  {% if request.design_mode %}
-  document.addEventListener("shopify:section:load", function(event) {
-    var elem = document.querySelector('.featured-cards .carousel');
-    var flkty = new Flickity( elem, {
-    contain: true,
-    imagesLoaded: true,
-    lazyLoad: 2,
-    wrapAround: true,
-    pageDots: false,
-    responsive: [
-    {
-      breakpoint: 749,
-      settings: {
-        cellAlign: "left",
-        freeScroll: true,
-        prevNextButtons: false,
-        pageDots: true
-      }
-    }]
-    });
-  });
-  {% endif %}
+
 </script>
 {% schema %}
 {
