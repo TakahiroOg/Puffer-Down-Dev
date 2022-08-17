@@ -169,10 +169,6 @@
   width: 50%;
 }
 
-img.left {
-  width: auto !important;
-}
-
 .banner__media-half + .banner__media-half {
   right: 0;
   left: auto;
