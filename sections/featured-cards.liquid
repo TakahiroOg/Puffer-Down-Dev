@@ -1,0 +1,120 @@
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+<div class="featured-cards">
+  <div class="collection__title title-wrapper page-width">
+    {%- if section.settings.title != blank -%}
+      <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
+    {%- endif -%}
+    {%- if section.settings.description != blank -%}
+      <div class="collection__description {{ section.settings.description_style }}">{%- if section.settings.show_description -%}{{ section.settings.collection.description }}{%- else -%}{{ section.settings.description }}{% endif %}</div>
+    {%- endif -%}
+  </div>
+  <div class="carousel">
+    {% assign collection = collections[section.settings.collection] %}
+      {% for product in collection.products %}
+      <div class="carousel-cell card-content">
+        <a href="{{ product.url }}" class="full-unstyled-link">
+          <img data-flickity-lazyload="{{ product.featured_image | img_url: 'large' }}"  border="0" />
+          <h4 class="card-product_title">{{ product.title }}</h4>
+          {% render 'price', product: product, price_class: '' %}
+        </a>
+      </div>
+      {% endfor %}
+  </div>
+</div>
+{% style %}
+.card-product_title {
+  margin:0;
+  font-weight:400;
+  font-size:15px;
+}
+.card-content {
+  text-align:center;
+}
+.flickity-page-dots .dot {
+  background: {{ section.settings.navigation_color }};
+}
+.flickity-button-icon {
+  color: {{ section.settings.navigation_color }};
+}
+.featured-cards {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 20px;
+  padding-bottom: 32px;
+  margin-top: 55px;
+}
+.featured-cards img {
+  width: 100%;
+}
+.featured-cards .carousel-cell {
+  background: #fff;
+  border-radius: 16px;
+  margin: auto;
+  margin: 5px;
+  width: calc(20% - 10px);
+}
+.product-btn {
+  width: 100%;
+}
+@media only screen and ( max-width: 767px ) {
+  .featured-cards .carousel-cell {
+    width: calc(50% - 10px);
+  }
+}
+{% endstyle %}
+<script>
+  var elem = document.querySelector('.featured-cards .carousel');
+  var flkty = new Flickity( elem, {
+    contain: true,
+    imagesLoaded: true,
+    lazyLoad: 2,
+    wrapAround: true,
+    pageDots: false,
+  });
+  {% if request.design_mode %}
+  document.addEventListener("shopify:section:load", function(event) {
+    var elem = document.querySelector('.featured-cards .carousel');
+    var flkty = new Flickity( elem, {
+    contain: true,
+    imagesLoaded: true,
+    lazyLoad: 2,
+    wrapAround: true,
+    pageDots: false,
+    });
+  });
+  {% endif %}
+</script>
+{% schema %}
+{
+  "name": "Product cards",
+  "settings": [
+  {
+    "type": "color",
+    "id": "navigation_color",
+    "label": "Change color of the pagination|navigation|scrollbar"
+  },
+  {
+    "type": "collection",
+    "id": "collection",
+    "label": "collection"
+  },
+  {
+    "type": "text",
+    "id": "title",
+    "default": "Featured collection",
+    "label": "t:sections.featured-collection.settings.title.label"
+  },
+  {
+    "type": "richtext",
+    "id": "description",
+    "label": "description"
+  }
+  ] ,
+  "presets": [
+  {
+    "name": "Featured cards",
+    "category":"Custom"
+  }
+  ]
+}
+{% endschema %}

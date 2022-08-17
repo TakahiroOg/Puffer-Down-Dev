@@ -2,56 +2,101 @@
   "sections": {
     "166060869270afe1d5": {
       "type": "image-banner",
+      "blocks": {
+        "c942fc2d-2786-490c-a76a-566b75d5580f": {
+          "type": "heading",
+          "settings": {
+            "heading": "Upgrade Your Case Game",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "c942fc2d-2786-490c-a76a-566b75d5580f"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/down-jacket-iphone-case.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_content_position": "top-center",
+        "desktop_content_position": "middle-right",
         "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "desktop_content_alignment": "left",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
     },
+    "16606968211430b3e1": {
+      "type": "featured-cards",
+      "settings": {
+        "navigation_color": "",
+        "collection": "puff-cases-classic",
+        "title": "Down Jacket Case",
+        "description": "<p>ダウンジャケットから想像を得たPuffer Caseを使ってあなたのiPhoneを保護しましょう。<\/p>"
+      }
+    },
     "166060898005400686": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Down Jacket Case",
         "heading_size": "h2",
-        "description": "<p>Protect your iPhone with \"The Puffer Case\" inspired down jacket.<\/p>",
+        "description": "<p>ダウンジャケットから想像を得たPuffer Caseを使ってあなたのiPhoneを保護しましょう。<\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "",
+        "collection": "cases",
         "products_to_show": 9,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": true,
-        "show_vendor": true,
+        "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": true,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "1660609123f5b7004f": {
-      "type": "video",
+    "166063941107362040": {
+      "type": "image-with-text",
+      "blocks": {
+        "16606394117ec29f06-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "あなたの携帯をCozyでスタイリッシュに"
+          }
+        },
+        "16606394117ec29f06-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>今SNSでトレンドの\"The Puffer Case\"。 Dua LipaやJustin Bieberにも愛用されているこのユニークなケースで、あなたの携帯のスタイルをアップグレードしましょう。<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16606394117ec29f06-0",
+        "16606394117ec29f06-1"
+      ],
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": true,
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "big_header": true,
+        "mobile_reverse": false,
+        "video": "https:\/\/i.imgur.com\/7rAFwnm.mp4",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -59,13 +104,6 @@
     "1660609148b8a7c1aa": {
       "type": "featured-product",
       "blocks": {
-        "1660609148aef4b5b4-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "1660609148aef4b5b4-1": {
           "type": "title",
           "settings": {
@@ -87,7 +125,7 @@
         "1660609148aef4b5b4-4": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "dropdown"
           }
         },
         "1660609148aef4b5b4-5": {
@@ -98,12 +136,11 @@
         "1660609148aef4b5b4-6": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         }
       },
       "block_order": [
-        "1660609148aef4b5b4-0",
         "1660609148aef4b5b4-1",
         "1660609148aef4b5b4-2",
         "1660609148aef4b5b4-3",
@@ -112,7 +149,7 @@
         "1660609148aef4b5b4-6"
       ],
       "settings": {
-        "product": "",
+        "product": "the-puffer-case-noir",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
@@ -127,7 +164,7 @@
         "1660609253a9bd4a86-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "<p>PUFFERDOWNへようこそ<\/p>",
             "heading_size": "h1"
           }
         },
@@ -163,59 +200,32 @@
         "padding_bottom": 52
       }
     },
-    "1660609208e8729eae": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1660609218b7737424": {
+    "166062846876bdbd5d": {
       "type": "collection-list",
       "blocks": {
-        "166060921892af57de-0": {
+        "166062846821aacc55-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "puff-down-jacket-cases"
           }
         },
-        "166060921892af57de-1": {
+        "166062846821aacc55-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "bags"
           }
         },
-        "166060921892af57de-2": {
+        "166062846821aacc55-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "accessories"
           }
         }
       },
       "block_order": [
-        "166060921892af57de-0",
-        "166060921892af57de-1",
-        "166060921892af57de-2"
+        "166062846821aacc55-0",
+        "166062846821aacc55-1",
+        "166062846821aacc55-2"
       ],
       "settings": {
         "title": "Collections",
@@ -230,41 +240,13 @@
         "padding_bottom": 36
       }
     },
-    "1660609270241e5cad": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "16606097128362c645": {
       "type": "image-with-text",
       "blocks": {
         "1660609712f04791a3-0": {
           "type": "heading",
           "settings": {
-            "heading": "JOIN US ON INSTAGRAM !",
-            "heading_size": "h2"
+            "heading": "JOIN US ON INSTAGRAM !"
           }
         },
         "1660609712f04791a3-1": {
@@ -290,27 +272,29 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/down-jacket-iphone-case-green.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "big_header": true,
+        "mobile_reverse": false,
+        "video": "",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
     "166060869270afe1d5",
+    "16606968211430b3e1",
     "166060898005400686",
-    "1660609123f5b7004f",
+    "166063941107362040",
     "1660609148b8a7c1aa",
     "16606092537773536d",
-    "1660609208e8729eae",
-    "1660609218b7737424",
-    "1660609270241e5cad",
+    "166062846876bdbd5d",
     "16606097128362c645"
   ]
 }
