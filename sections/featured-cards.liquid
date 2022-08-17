@@ -41,7 +41,6 @@
   margin: auto;
   padding: 0 20px;
   padding-bottom: 32px;
-  margin-top: 55px;
 }
 .featured-cards img {
   width: 100%;
@@ -70,6 +69,16 @@
     lazyLoad: 2,
     wrapAround: true,
     pageDots: false,
+    responsive: [
+    {
+      breakpoint: 749,
+      settings: {
+        cellAlign: "left",
+        freeScroll: true,
+        prevNextButtons: false,
+        pageDots: true
+      }
+    }
   });
   {% if request.design_mode %}
   document.addEventListener("shopify:section:load", function(event) {
