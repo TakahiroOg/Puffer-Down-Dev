@@ -5,8 +5,9 @@
       "blocks": {
         "c942fc2d-2786-490c-a76a-566b75d5580f": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "Upgrade Your Case Game",
+            "heading": "Puffer Case",
             "heading_size": "h1"
           }
         }

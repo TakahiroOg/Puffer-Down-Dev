@@ -106,7 +106,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "5,000円以上の購入で送料無料",
+              "text": "送料無料でお届け",
               "color_scheme": "inverse",
               "link": ""
             }
