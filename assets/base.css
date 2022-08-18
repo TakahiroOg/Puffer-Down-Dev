@@ -389,6 +389,7 @@ h5,
   color: rgb(var(--color-base-accent-1));
   line-height: 1.2;
   word-break: break-word;
+  letter-spacing: 0;
 }
 
 .hxl {

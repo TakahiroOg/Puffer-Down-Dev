@@ -1,3 +1,4 @@
+{{ 'component-featured-cards.css' | asset_url | stylesheet_tag }}
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 <div class="featured-cards">
   <div class="collection__title title-wrapper page-width">
@@ -22,44 +23,11 @@
   </div>
 </div>
 {% style %}
-.card-product_title {
-  margin:0;
-  font-weight:400;
-  font-size:14px;
-  color: #3d3d3d;
-}
-.card-content {
-  text-align:center;
-}
 .flickity-page-dots .dot {
   background: {{ section.settings.navigation_color }};
 }
 .flickity-button-icon {
   color: {{ section.settings.navigation_color }};
-}
-.featured-cards {
-  max-width: 1400px;
-  margin: auto;
-  padding: 0 20px;
-  padding-bottom: 32px;
-}
-.featured-cards img {
-  width: 100%;
-}
-.featured-cards .carousel-cell {
-  background: #fff;
-  border-radius: 16px;
-  margin: auto;
-  margin: 5px;
-  width: calc(20% - 10px);
-}
-.product-btn {
-  width: 100%;
-}
-@media only screen and ( max-width: 767px ) {
-  .featured-cards .carousel-cell {
-    width: calc(50% - 10px);
-  }
 }
 {% endstyle %}
 <script>
@@ -69,7 +37,7 @@
     imagesLoaded: true,
     lazyLoad: 6,
     wrapAround: true,
-    pageDots: false,
+    pageDots: true,
     cellAlign: "left",
   });
 

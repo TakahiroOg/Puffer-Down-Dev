@@ -1,3 +1,6 @@
+.featured-product {
+  align-items: center;
+}
 .featured-product .product__media-list {
   width: 100%;
   margin: 0;
@@ -52,7 +55,9 @@
 }
 
 @media screen and (min-width: 990px) {
-  .background-secondary .featured-product:not(.product--no-media) > .product__info-wrapper {
+  .background-secondary
+    .featured-product:not(.product--no-media)
+    > .product__info-wrapper {
     padding: 0 0 0 5rem;
   }
 

@@ -42,7 +42,7 @@
     "16606968211430b3e1": {
       "type": "featured-cards",
       "settings": {
-        "navigation_color": "",
+        "navigation_color": "#020912",
         "collection": "puff-cases-classic",
         "title": "Down Jacket Case",
         "description": "<p>ダウンジャケットから想像を得たPuffer Caseを使ってあなたのiPhoneを保護しましょう。<\/p>"
@@ -166,8 +166,8 @@
         "secondary_background": false,
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 28
       }
     },
     "16606092537773536d": {
