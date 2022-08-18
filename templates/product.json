@@ -1,164 +1,23 @@
 {
   "sections": {
     "main": {
-      "type": "main-product-2",
+      "type": "main-product",
       "settings": {
+        "cta_button": true
       }
     },
-    "165747575581a00aed": {
-      "type": "image-with-text",
-      "blocks": {
-        "c64ab016-c053-4af8-8bba-f1456135989b": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.custom.benefit_1.value }}"
-          }
-        },
-        "1657475754c396529e-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.custom.paragraph_1.value }}<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "c64ab016-c053-4af8-8bba-f1456135989b",
-        "1657475754c396529e-1"
-      ],
+    "1660810525cebc2723": {
+      "type": "featured-cards",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2.gif",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "big_header": true,
-        "mobile_reverse": false,
-        "is_video": false,
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 24,
-        "padding_bottom": 24
-      }
-    },
-    "1657476048928c81fd": {
-      "type": "image-with-text",
-      "blocks": {
-        "165747604833d36233-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.custom.benefit_2.value }}"
-          }
-        },
-        "165747604833d36233-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.custom.paragraph_2.value }}<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "165747604833d36233-0",
-        "165747604833d36233-1"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "big_header": false,
-        "mobile_reverse": false,
-        "is_video": true,
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "1657547639eba3c580": {
-      "type": "image-with-text",
-      "blocks": {
-        "1657547639e0279b9d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "{{ product.metafields.custom.benefit_3.value }}"
-          }
-        },
-        "1657547639e0279b9d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>{{ product.metafields.custom.paragraph_3.value }}<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "1657547639e0279b9d-0",
-        "1657547639e0279b9d-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/20.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "big_header": true,
-        "mobile_reverse": false,
-        "is_video": false,
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "cta": {
-      "type": "cta",
-      "settings": {
-      }
-    },
-    "loox-product-reviews-app-section": {
-      "type": "apps",
-      "blocks": {
-        "loox-product-reviews": {
-          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "aggregated": false,
-            "hide_thumbnails": false,
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "loox-product-reviews"
-      ],
-      "settings": {
-        "include_margins": false
-      }
-    },
-    "guarantee": {
-      "type": "guarantee",
-      "settings": {
-        "gt_image": "shopify:\/\/shop_images\/2.jpg",
-        "gt-badge": "shopify:\/\/shop_images\/badge.png",
-        "gt-description": "<p>We stand behind the effectiveness of this product that's why we're giving you the chance to try it risk-free for the next 60 days. You're going to love how the treated area feels after each session, or you get your money back. Other than those aches and pains that you've been dealing with, you have nothing to lose by trying this product.<\/p>"
+        "navigation_color": "",
+        "collection": "puff-down-jacket-cases",
+        "title": "関連商品",
+        "description": ""
       }
     }
   },
   "order": [
     "main",
-    "165747575581a00aed",
-    "1657476048928c81fd",
-    "1657547639eba3c580",
-    "cta",
-    "loox-product-reviews-app-section",
-    "guarantee"
+    "1660810525cebc2723"
   ]
 }

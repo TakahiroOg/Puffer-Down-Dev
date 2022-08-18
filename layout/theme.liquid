@@ -30,8 +30,6 @@
     {% render 'meta-tags' %}
 
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
-    {{ 'flickity.js' | asset_url | script_tag }}
-
     {{ content_for_header }}
 
     {%- liquid
@@ -64,7 +62,6 @@
         --color-shadow: {{ settings.colors_text.red }}, {{ settings.colors_text.green }}, {{ settings.colors_text.blue }};
         --color-base-background-1: {{ settings.colors_background_1.red }}, {{ settings.colors_background_1.green }}, {{ settings.colors_background_1.blue }};
         --color-base-background-2: {{ settings.colors_background_2.red }}, {{ settings.colors_background_2.green }}, {{ settings.colors_background_2.blue }};
-        --color-base-background-3: 71, 73, 74;
         --color-base-solid-button-labels: {{ settings.colors_solid_button_labels.red }}, {{ settings.colors_solid_button_labels.green }}, {{ settings.colors_solid_button_labels.blue }};
         --color-base-outline-button-labels: {{ settings.colors_outline_button_labels.red }}, {{ settings.colors_outline_button_labels.green }}, {{ settings.colors_outline_button_labels.blue }};
         --color-base-accent-1: {{ settings.colors_accent_1.red }}, {{ settings.colors_accent_1.green }}, {{ settings.colors_accent_1.blue }};
@@ -192,13 +189,12 @@
 
       @media screen and (min-width: 750px) {
         body {
-          font-size: 1.6rem;
+          font-size: 15px;
         }
       }
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
-    {{ 'flickity.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -216,9 +212,9 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
-  
-	{{ shop.metafields.loox["global_html_head"] }}
-</head>
+    {{ 'flickity.css' | asset_url | stylesheet_tag }}
+    {{ 'flickity.js' | asset_url | script_tag }}
+  </head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -274,7 +270,5 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  
-	{{ shop.metafields.loox["global_html_body"] }}
-</body>
+  </body>
 </html>

@@ -385,3 +385,69 @@ cart-drawer-items::-webkit-scrollbar-thumb {
 cart-drawer-items::-webkit-scrollbar-track-piece {
   margin-top: 31px;
 }
+
+.AddonItem__Row .CartItem {
+  padding: 6px;
+  border: 1px solid #ddd;
+  align-items: flex-start;
+  border-radius: 4px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.CartItem__ImageWrapper {
+  width: 40%;
+}
+.AddonItem__Row__Outerslider_addon {
+  margin: 0 5px 10px;
+}
+.main_cartitem_price {
+  width: 60%;
+}
+.CartItem__Info__main .CartItem__Info .cartItem__desc {
+  font-size: 11px;
+  line-height: 15px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 30px;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.CartItem__Info a.link_pro {
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(var(--color-link));
+}
+.addon_section .CartItem__Info {
+  text-align: center;
+}
+.CartItem__Title {
+  margin: 0 0 5px;
+  line-height: 15px;
+}
+.addon_section .cart_price_addbtn {
+  text-align: center;
+}
+.drawer .AddonItem__Row span.CartItem__Price.Price {
+  font-size: 14px !important;
+  color: #000;
+  font-weight: 700 !important;
+}
+.addon_atc {
+  border: 1px solid rgb(var(--color-button));
+  color: #fff;
+  background-color: rgb(var(--color-button));
+  font-weight: 700;
+  padding: 3px 12px;
+  font-size: 12px;
+  line-height: 1;
+  border-radius: 27px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.addon_section .CartItem__Actions.Heading.Text--subdued {
+  text-align: center !important;
+}

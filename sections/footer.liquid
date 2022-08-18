@@ -36,7 +36,7 @@
   }
 {%- endstyle -%}
 
-<footer class="footer color-{{ section.settings.color_scheme }}  section-{{ section.id }}-padding">
+<footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
     <div class="footer__content-top page-width">
       {%- if section.blocks.size > 0 -%}
@@ -329,6 +329,10 @@
             </ul>
           </div>
         {%- endif -%}
+        <div class="footer__copyright caption">
+          <small class="copyright__content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+          <small class="copyright__content">{{ powered_by_link }}</small>
+        </div>
       </div>
     </div>
   </div>

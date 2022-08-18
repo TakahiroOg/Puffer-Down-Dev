@@ -913,6 +913,7 @@ class VariantSelects extends HTMLElement {
     this.initLoad();
     this.addEventListener("change", this.onVariantChange);
   }
+
   initLoad() {
     this.updateOptions();
     this.updateMasterId();
@@ -937,6 +938,7 @@ class VariantSelects extends HTMLElement {
       this.updateShareUrl();
     }
   }
+
   updateOptions() {
     this.options = Array.from(
       this.querySelectorAll("select"),

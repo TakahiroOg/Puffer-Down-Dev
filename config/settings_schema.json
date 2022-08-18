@@ -1,8 +1,8 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Dawn",
-    "theme_version": "6.0.2",
+    "theme_name": "Taste",
+    "theme_version": "3.0.1",
     "theme_author": "Shopify",
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
     "theme_support_url": "https://support.shopify.com/"
@@ -272,10 +272,6 @@
   {
     "name": "t:settings_schema.variant_pills.name",
     "settings": [
-      {
-        "type": "paragraph",
-        "content": "t:settings_schema.variant_pills.paragraph"
-      },
       {
         "type": "header",
         "content": "t:settings_schema.global.settings.header__border.content"
@@ -1192,6 +1188,16 @@
         "id": "cart_drawer_collection",
         "label": "t:settings_schema.cart.settings.cart_drawer.collection.label",
         "info": "t:settings_schema.cart.settings.cart_drawer.collection.info"
+      },
+      {
+        "type": "collection",
+        "id": "cart_upsell",
+        "label": "cart upsell"
+      },
+      {
+        "type": "text",
+        "id": "cart_upsell_title",
+        "label": "cart upsell title"
       }
     ]
   }

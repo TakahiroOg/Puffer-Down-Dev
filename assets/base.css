@@ -867,7 +867,7 @@ summary::-webkit-details-marker {
 /* component-title */
 .title,
 .title-wrapper-with-link {
-  margin: 3rem 0 2rem;
+  margin: 3rem 0 1rem;
 }
 
 .title-wrapper-with-link .title {
@@ -909,10 +909,10 @@ summary::-webkit-details-marker {
 }
 
 @media screen and (min-width: 990px) {
-  .title,
+  /* .title,
   .title-wrapper-with-link {
-    margin: 5rem 0 3rem;
-  }
+    margin: 5rem 0 1rem;
+  } */
 
   .title--primary {
     margin: 2rem 0;
@@ -2050,6 +2050,9 @@ input[type="checkbox"] {
 .quantity__input:focus-visible {
   background-color: rgb(var(--color-background));
   z-index: 2;
+  outline: 0.2rem solid rgba(var(--color-foreground), 0.5);
+  box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
+    0 0 0.5rem 0.4rem rgba(var(--color-foreground), 0.3);
 }
 
 .quantity__button:focus,
@@ -2179,12 +2182,12 @@ input[type="checkbox"] {
 .announcement-bar {
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
   color: rgb(var(--color-foreground));
+  text-align: center;
 }
 
 .announcement-bar__link {
   display: block;
   width: 100%;
-  padding: 1rem 0;
   text-decoration: none;
 }
 
@@ -2206,9 +2209,11 @@ input[type="checkbox"] {
 }
 
 .announcement-bar__message {
-  padding: 1rem 0;
+  padding: 7px 0;
   margin: 0;
   letter-spacing: 0.1rem;
+  line-height: 1;
+  font-size: 13px;
 }
 
 /* section-header */
@@ -2964,24 +2969,6 @@ img {
   max-width: 100%;
 }
 
-.get-btn {
-  color: #fff;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.2;
-  background-color: #00c065;
-  border: 1px solid #00c065;
-  padding: 12px 30px;
-  border-radius: 5px;
-  text-align: center;
-  text-transform: uppercase;
-  cursor: pointer;
-  box-shadow: 0px 0px 13px -2px #00c065;
-}
-.get-btn {
-  position: relative;
-}
-
 /* Flickity Slider */
 .product__image-slider {
   width: 100%;
@@ -3016,5 +3003,14 @@ img {
   opacity: 0;
 }
 .carousel.flickity-enabled {
+  opacity: 1;
+}
+/* fade in image when loaded */
+.fade-in {
+  transition: opacity 1s linear;
+  opacity: 0;
+}
+
+.fade-in.flickity-lazyloaded {
   opacity: 1;
 }
