@@ -12,7 +12,8 @@
   text-align: center;
 }
 .banner-content-bg {
-  background-color: #ffffffc9;
+  background-color: #fff;
+  border: 2px solid #000;
 }
 @media only screen and (max-width: 749px) {
   .banner--content-align-mobile-left .banner__box {
