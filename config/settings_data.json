@@ -101,6 +101,11 @@
     "show_cart_note": false,
     "cart_upsell": "cart-upsell",
     "cart_upsell_title": "こちらもおすすめ",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_2.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "large",
+    "checkout_accent_color": "#020912",
+    "checkout_button_color": "#020912",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
