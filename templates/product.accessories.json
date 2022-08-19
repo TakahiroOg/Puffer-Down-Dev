@@ -1,0 +1,23 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "cta_button": true
+      }
+    },
+    "1660810525cebc2723": {
+      "type": "featured-cards",
+      "settings": {
+        "navigation_color": "",
+        "collection": "best-sellers",
+        "title": "関連商品",
+        "description": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1660810525cebc2723"
+  ]
+}
