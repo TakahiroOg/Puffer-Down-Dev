@@ -2755,11 +2755,10 @@ details-disclosure > details {
   letter-spacing: 0.1em;
   border-radius: 28px;
   padding: 0 24px;
-  background-color: #009dc8;
-  border: 1px solid #009dc8;
-  color: #fff;
   font-weight: 500;
-  line-height: 1.2;
+}
+.product-info .badge {
+    margin-left: 1rem;
 }
 @media screen and (max-width: 749px) {
   .badge {
