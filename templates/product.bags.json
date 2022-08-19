@@ -3,14 +3,14 @@
     "main": {
       "type": "main-product",
       "settings": {
-        "cta_button": true
+        "cta_button": false
       }
     },
     "1660810525cebc2723": {
       "type": "featured-cards",
       "settings": {
         "navigation_color": "",
-        "collection": "best-sellers",
+        "collection": "bags",
         "title": "関連商品",
         "description": ""
       }
