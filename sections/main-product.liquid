@@ -23,7 +23,7 @@
             data-flickity-lazyload-src="{{ media | img_url: 'master' }}"
             alt="{{ media.alt | escape }}"
             border="0"
-            data-media-id="{{ media.id }}" />
+            data-media-id="{{ media.id }}"  {% if forloop.first %}class="fade-in"{% endif %}/>
             {% endif %}
             </div>
             {%- endfor -%}
@@ -40,7 +40,7 @@
             sizes="(min-width: 480px) 1440px, 1080px, 767px, 480px"
             data-flickity-lazyload-src="{{ media | img_url: 'master' }}"
             border="0"
-            data-media-id="{{ media_id }}" />
+            data-media-id="{{ media_id }}" class="fade-in"/>
             </div>
             {%- endfor -%}
             </div>
@@ -49,6 +49,7 @@
           {% else %}
           {{ 'product-1' | placeholder_svg_tag }}
           {% endif %}
+          </div>
       </div>
       <div class="product-info">
         <div class="product-title_container">
@@ -113,7 +114,7 @@
                 </select>
                 {% render 'icon-caret' %}
               </div>
-            </div>
+            
           </noscript>
 
           <quantity-input class="quantity">
