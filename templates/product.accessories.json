@@ -3,7 +3,7 @@
     "main": {
       "type": "main-product",
       "settings": {
-        "cta_button": true
+        "cta_button": false
       }
     },
     "1660810525cebc2723": {
