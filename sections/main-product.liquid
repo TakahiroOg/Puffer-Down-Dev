@@ -12,7 +12,7 @@
             {%- for media in product.media -%}
             <div class="carousel-cell">
             {% if media.media_type == "video" %}
-            {{ media | media_tag: image_size: "720x", autoplay: true, loop: loop, controls: false, preload: "none", autoplay: true,  height: "100%", width: "100%" }}
+            {{ media | media_tag: image_size: "720x", autoplay: true, loop: true, controls: false, preload: "none", autoplay: true,  height: "100%", width: "100%" }}
             {% else %}
             <img data-flickity-lazyload-srcset="
             {{ media | img_url: '1440x' }} 1440w,
