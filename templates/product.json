@@ -1,62 +1,23 @@
 {
   "sections": {
     "main": {
-      "type": "main-product-old",
-      "blocks": {
-        "015e11f8-8e7e-4477-8782-2fb84433e899": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "f80b193d-237e-4c41-8e34-51fde8b29903": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "be7ac4a0-1b29-40c3-ab3e-435b1d6aef2e": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "dropdown"
-          }
-        },
-        "5c1fef95-f26f-408a-bd7f-27b85f90ab4d": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "fcd44aed-7fdf-462f-854d-95f0b2b6d681": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false
-          }
-        },
-        "997d236f-f745-434d-86a2-d6713c8534a6": {
-          "type": "description",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "015e11f8-8e7e-4477-8782-2fb84433e899",
-        "f80b193d-237e-4c41-8e34-51fde8b29903",
-        "be7ac4a0-1b29-40c3-ab3e-435b1d6aef2e",
-        "5c1fef95-f26f-408a-bd7f-27b85f90ab4d",
-        "fcd44aed-7fdf-462f-854d-95f0b2b6d681",
-        "997d236f-f745-434d-86a2-d6713c8534a6"
-      ],
+      "type": "main-product",
       "settings": {
-        "enable_sticky_info": true,
-        "gallery_layout": "thumbnail_slider",
-        "media_size": "medium",
-        "mobile_thumbnails": "hide",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "cta_button": true
+      }
+    },
+    "1660810525cebc2723": {
+      "type": "featured-cards",
+      "settings": {
+        "navigation_color": "",
+        "collection": "puff-down-jacket-cases",
+        "title": "関連商品",
+        "description": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1660810525cebc2723"
   ]
 }

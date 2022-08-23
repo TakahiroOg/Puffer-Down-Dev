@@ -86,7 +86,7 @@
     "social_twitter_link": "",
     "social_facebook_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/urban.case.puff\/",
+    "social_instagram_link": "",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -95,14 +95,13 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/MY-removebg-preview.png",
-    "currency_code_enabled": false,
+    "currency_code_enabled": true,
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
     "cart_upsell": "cart-upsell",
     "cart_upsell_title": "こちらもおすすめ",
-    "checkout_logo_image": "shopify:\/\/shop_images\/MY-removebg-preview.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_2.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_accent_color": "#020912",
@@ -114,7 +113,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "3500円以上のご注文で20%OFF",
+              "text": "送料無料でお届け",
               "color_scheme": "inverse",
               "link": ""
             }
@@ -131,7 +130,7 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "{{ shop.brand.logo }}",
-          "logo_width": 120,
+          "logo_width": 150,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
@@ -158,8 +157,8 @@
         ],
         "settings": {
           "color_scheme": "accent-1",
-          "newsletter_enable": true,
-          "newsletter_heading": "",
+          "newsletter_enable": false,
+          "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
