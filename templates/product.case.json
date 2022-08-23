@@ -1,0 +1,55 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+        "cta_button": true
+      }
+    },
+    "1661255267e89898db": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr style=\"margin: 0;\"\/><div id=\"fbt-section\" class=\"page-width\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "hide_thumbnails": false,
+            "maxwidth": 1200
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+        "include_margins": false
+      }
+    },
+    "1660810525cebc2723": {
+      "type": "featured-cards",
+      "settings": {
+        "navigation_color": "",
+        "collection": "puff-down-jacket-cases",
+        "title": "関連商品",
+        "description": "",
+        "border-top": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1661255267e89898db",
+    "loox-product-reviews-app-section",
+    "1660810525cebc2723"
+  ]
+}

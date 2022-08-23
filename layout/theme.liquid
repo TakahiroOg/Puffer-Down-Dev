@@ -214,7 +214,9 @@
     </script>
     {{ 'flickity.css' | asset_url | stylesheet_tag }}
     {{ 'flickity.js' | asset_url | script_tag }}
-  </head>
+  
+	{{ shop.metafields.loox["global_html_head"] }}
+</head>
 
   <body class="gradient">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -232,6 +234,8 @@
     </main>
 
     {% section 'footer' %}
+
+    <script src="//cdn.codeblackbelt.com/js/modules/frequently-bought-together/main.min.js?shop=puffer-down.myshopify.com" defer></script>
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
@@ -270,5 +274,7 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  </body>
+  
+	{{ shop.metafields.loox["global_html_body"] }}
+</body>
 </html>
