@@ -41,23 +41,23 @@
     },
     "16606968211430b3e1": {
       "type": "featured-cards",
-      "disabled": true,
       "settings": {
         "navigation_color": "#020912",
-        "collection": "puff-cases-limited-edition",
+        "collection": "puff-cases-classic",
         "title": "Down Jacket Case",
         "description": "<p>ダウンジャケットから想像を得たPuffer Caseを使ってあなたのiPhoneを保護しましょう。<\/p>"
       }
     },
     "166060898005400686": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Down Jacket Case",
         "heading_size": "h2",
         "description": "<p>ダウンジャケットから想像を得たPuffer Caseを使ってあなたのiPhoneを保護しましょう。<\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "puff-cases-limited-edition",
+        "collection": "cases",
         "products_to_show": 9,
         "columns_desktop": 4,
         "full_width": false,
@@ -70,33 +70,6 @@
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1660994647149f2723": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "ツルツル Iphone Cases",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "puff-case-ピカピカ",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": false,
-        "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
@@ -203,14 +176,14 @@
         "1660609253a9bd4a86-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>URBAN CASEへようこそ<\/p>",
+            "heading": "<p>PUFFERDOWNへようこそ<\/p>",
             "heading_size": "h1"
           }
         },
         "1660609253a9bd4a86-1": {
           "type": "text",
           "settings": {
-            "text": "<p>URBAN CASEでは、トレンドの商品をお手頃な価格でお届け。ファッショナブルで機能性を兼ね備えたテックアクセサリーを展開しています。<\/p>"
+            "text": "<p>PUFFERDOWNでは、トレンドの商品をお手頃な価格でお届け。ファッショナブルで機能性を兼ね備えたテックアクセサリーを展開しています。<\/p>"
           }
         }
       },
@@ -225,33 +198,6 @@
         "full_width": true,
         "padding_top": 12,
         "padding_bottom": 12
-      }
-    },
-    "1660994804a75664f1": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Puff Iphone Cases",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "puff-cases-classic",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "166062846876bdbd5d": {
@@ -306,7 +252,7 @@
         "1660609712f04791a3-1": {
           "type": "text",
           "settings": {
-            "text": "<p>URBAN CASEをインスタグラムでフォローして10%OFFクーポンをGETしましょう。<\/p>",
+            "text": "<p>PUFFERDOWNをインスタグラムでフォローして10%OFFクーポンをGETしましょう。<\/p>",
             "text_style": "body"
           }
         },
@@ -314,7 +260,7 @@
           "type": "button",
           "settings": {
             "button_label": "Instagramを見る",
-            "button_link": "https:\/\/www.instagram.com\/urban.case.puff\/"
+            "button_link": "https:\/\/instagram.com"
           }
         }
       },
@@ -345,11 +291,9 @@
     "166060869270afe1d5",
     "16606968211430b3e1",
     "166060898005400686",
-    "1660994647149f2723",
     "166063941107362040",
     "1660609148b8a7c1aa",
     "16606092537773536d",
-    "1660994804a75664f1",
     "166062846876bdbd5d",
     "16606097128362c645"
   ]
