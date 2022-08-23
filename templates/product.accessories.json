@@ -6,18 +6,29 @@
         "cta_button": false
       }
     },
+    "1661297620147a6f30": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<hr style=\"margin: 0;\"\/><div id=\"fbt-section\" class=\"page-width\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "1660810525cebc2723": {
       "type": "featured-cards",
       "settings": {
         "navigation_color": "",
         "collection": "best-sellers",
         "title": "関連商品",
-        "description": ""
+        "description": "",
+        "border-top": true
       }
     }
   },
   "order": [
     "main",
+    "1661297620147a6f30",
     "1660810525cebc2723"
   ]
 }
